@@ -1,0 +1,5 @@
+C:\Projekty\Priv\Day4\RIVERSTORK\RS.BL2\bin\Debug\RS.BL2.dll
+C:\Projekty\Priv\Day4\RIVERSTORK\RS.BL2\bin\Debug\RS.BL2.pdb
+C:\Projekty\Priv\Day4\RIVERSTORK\RS.BL2\obj\Debug\RS.BL.csprojResolveAssemblyReference.cache
+C:\Projekty\Priv\Day4\RIVERSTORK\RS.BL2\obj\Debug\RS.BL2.dll
+C:\Projekty\Priv\Day4\RIVERSTORK\RS.BL2\obj\Debug\RS.BL2.pdb
