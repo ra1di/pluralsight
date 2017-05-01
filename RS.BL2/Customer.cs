@@ -1,10 +1,26 @@
-﻿using System;
+﻿using RS.BL2;
+using System;
 using System.Collections.Generic;
 
 namespace RS.BL
 {
+
     public class Customer
     {
+        public Customer()
+            : this(0) //constructor chaining, calling another constructor
+        {
+
+        }
+
+        public Customer(int customerId)
+        {
+
+            CustomerId = customerId;
+            AddressList = new List<Address>(); //full it with null
+        }
+        public List<Address> AddressList { get; set; } //relacja miedzy Customer class a AddressClass
+
         public static int InstanceCount { get; set; }
 
         //with code inside
