@@ -86,6 +86,8 @@ namespace RS.BL_Test
                 Assert.AreEqual(expected.AddressList[i].Country, actual.AddressList[i].Country);
                 Assert.AreEqual(expected.AddressList[i].PostalCode, actual.AddressList[i].PostalCode);
             }
+
+            //dupa edit dupa dupa
         }
     }
 }
