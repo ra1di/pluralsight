@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace RS.BL2
 {
+    //wypelnia danymi klasę Customer
     public class CustomerRepository
     {
         //relationship between CustomerRepo and AddressRepo
@@ -19,7 +20,7 @@ namespace RS.BL2
 
         public Customer Retrieve(int customerId)
         {
-            Customer customer =  new Customer(customerId);
+            Customer customer = new Customer(customerId);
             customer.AddressList = addressRepository.RetrieveByCustomerId(customerId).ToList();
 
             if (customerId == 1)

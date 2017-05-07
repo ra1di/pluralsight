@@ -25,7 +25,7 @@ namespace RS.BL2
 
             return address;
         }
-        
+
         public IEnumerable<Address> RetrieveByCustomerId(int customerId)
         {
             var addressList = new List<Address>();
@@ -41,11 +41,11 @@ namespace RS.BL2
             };
             addressList.Add(address);
 
-             address = new Address(2)
+            address = new Address(2)
             {
                 AddressType = 2,
                 StreetLine1 = "Green Dragon",
-               
+
                 City = "Bywater",
                 State = "Shire",
                 Country = "Middle Earth",
@@ -55,6 +55,6 @@ namespace RS.BL2
 
             return addressList;
         }
-       
+
     }
 }

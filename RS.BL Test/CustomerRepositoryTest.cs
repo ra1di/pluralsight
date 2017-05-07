@@ -77,7 +77,7 @@ namespace RS.BL_Test
             //Assert.AreEqual(expected, actual); //Comparison is not equal even if they have same
             //properties!!! because they are not refference to same object
 
-            for (int i=0; i<1; i++)
+            for (int i = 0; i < 1; i++)
             {
                 Assert.AreEqual(expected.AddressList[i].AddressType, actual.AddressList[i].AddressType);
                 Assert.AreEqual(expected.AddressList[i].StreetLine1, actual.AddressList[i].StreetLine1);
@@ -87,7 +87,7 @@ namespace RS.BL_Test
                 Assert.AreEqual(expected.AddressList[i].PostalCode, actual.AddressList[i].PostalCode);
             }
 
-            //dupa edit dupa dupa
+
         }
     }
 }

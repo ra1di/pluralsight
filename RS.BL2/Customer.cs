@@ -17,11 +17,12 @@ namespace RS.BL
         {
 
             CustomerId = customerId;
-            AddressList = new List<Address>(); //full it with null
+            AddressList = new List<Address>(); //full it with empty
         }
         public List<Address> AddressList { get; set; } //relacja miedzy Customer class a AddressClass
 
         public static int InstanceCount { get; set; }
+        public int CustomerType { get; set; }
 
         //with code inside
         public string LastName;
@@ -59,7 +60,7 @@ namespace RS.BL
                 return fullName;
 
             }
-           
+
         }
 
         public Customer Retrieve(int CustomerId)
@@ -86,6 +87,6 @@ namespace RS.BL
             return isValid;
         }
 
-        
+
     }
 }

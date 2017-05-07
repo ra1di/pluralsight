@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RS.BL2
 {
-    class OrderItem
+    public class OrderItem
     {
         public OrderItem()
         {
